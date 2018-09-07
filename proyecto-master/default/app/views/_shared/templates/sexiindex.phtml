@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>sexianuncios by TEMPLATED</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+
+<!--[if lte IE 8]><script src="javascript/html5shiv.js"></script><![endif]-->
+    
+        <?= Tag::js('jquery.min') ?>
+        <?= Tag::js('skel.min') ?>
+        <?= Tag::js('skel-layers.min') ?>
+        <?= Tag::js('init') ?>
+        
+        
+        <!--<noscript>--> 
+        <?= Tag::css('sexianuncioscss/skel') ?>
+        <?= Tag::css('sexianuncioscss/style') ?>
+        <?= Tag::css('sexianuncioscss/style-xlarge') ?>
+        <?= Tag::css('sexianuncioscss/font-awesome.min', 'type="text/css"') ?> 
+        <?= Html::includeCss() ?>
+        <!--</noscript>-->
+        
+       
+       
+    </head>
+
+    <body id="top"> 
+        <!-- Header -->
+        <?php View::partial('partialssexianuncios/header') ?>
+
+
+        <?php View::content() ?>
+
+        <!-- Footer -->
+        <?php View::partial('partialssexianuncios/footer') ?>    
+    </body>
+</html>
+
