@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="<?= APP_CHARSET ?>">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Proyecto Personal">
+        <meta name="author" content="">
+        <?= Html::headLinkResource('favicon.ico', 'rel="shortcut icon", type="image/x-icon"') ?>
+        <?= Html::includeHeadLinks() ?>
+        <title>KumbiaPHP Framework</title>
+        <?php Tag::css('kumbia') ?>
+        <?= Html::includeCss() ?>
+
+
+    </head>
+    <body>
+        <div class="container">
+            <header class="row">
+                <div class="col-8">
+                    <?php View::partial('partialssexianuncios/header') ?>
+                </div>
+
+            </header>
+
+            <?php View::partial('partialssexianuncios/footer') ?> 
+        </div>
+    </body>
+</html>
