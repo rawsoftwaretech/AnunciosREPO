@@ -11,6 +11,10 @@ class AnunciosController extends AppController {
     public function index() {
         
     }
+    
+    public function listanuncio(){
+        
+    }
 
     public function login() {
         
@@ -27,9 +31,4 @@ class AnunciosController extends AppController {
     public function ciudades(){
         
     }
-    
-    public function personalbanner($action = NULL, $method = 'POST', $attrs = NULL){
-        
-    }
-
 }

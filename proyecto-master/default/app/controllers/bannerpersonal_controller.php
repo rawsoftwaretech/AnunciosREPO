@@ -10,5 +10,10 @@ class BannerpersonalController extends AppController{
         
     }
     
+    public function cliente(){
+        
+       
+    }
+    
 }
 
