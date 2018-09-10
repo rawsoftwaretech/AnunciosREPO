@@ -6,7 +6,7 @@ class BannerpersonalController extends AppController{
         parent::before_filter();
     }
     
-    protected function index(){
+    public function index(){
         
     }
     
