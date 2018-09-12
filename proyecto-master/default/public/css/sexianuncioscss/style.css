@@ -974,7 +974,7 @@ input[type="button"]:disabled,
 }
 
 .wrapper.style1 {
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
 }
 
@@ -1009,7 +1009,7 @@ input[type="button"]:disabled,
 }
 
 .wrapper.style3 {
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
 
     color: #555f66;
 }
@@ -1043,7 +1043,7 @@ input[type="button"]:disabled,
 
 
 .wrapper.style4 {
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
     height: 43em;
 }
@@ -1059,7 +1059,7 @@ input[type="button"]:disabled,
 
 
 .wrapper.style5{
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
     height: 50em;
 }
@@ -1082,7 +1082,7 @@ input[type="button"]:disabled,
 }
 
 #header {
-    background:  url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
+    background:  url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
     cursor: default;
     height: 3em;
@@ -1181,7 +1181,7 @@ input[type="button"]:disabled,
 
 #banner {
     background-color: #666666;
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bannerp2.png");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bannerp2.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1193,7 +1193,7 @@ input[type="button"]:disabled,
 
 #banner1{
     background-color: #666666;
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/imgb1.png");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/imgb1.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1269,7 +1269,7 @@ input[type="button"]:disabled,
 /* Footer */
 
 #footer {
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
 
     padding: 1em 0 0.70em 0;
 }
