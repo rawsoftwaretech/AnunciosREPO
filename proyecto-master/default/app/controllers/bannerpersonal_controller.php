@@ -6,12 +6,6 @@ class BannerpersonalController extends AppController{
         parent::before_filter();
     }
     
-<<<<<<< HEAD
-    protected function index(){
-        
-    }
-    
-=======
     public function index(){
         
     }
@@ -21,6 +15,5 @@ class BannerpersonalController extends AppController{
        
     }
     
->>>>>>> nor
 }
 
