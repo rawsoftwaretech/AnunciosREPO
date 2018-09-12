@@ -11,6 +11,7 @@ class AnunciosController extends AppController {
     public function index() {
         
     }
+<<<<<<< HEAD
 
     public function login() {
         
@@ -32,4 +33,15 @@ class AnunciosController extends AppController {
         
     }
 
+=======
+    
+    public function listanuncio(){
+        
+    }
+
+    public function login() {
+        
+    }
+ 
+>>>>>>> nor
 }
