@@ -9,18 +9,18 @@
                 
             </header>
 
-            <?= Form::open('', 'POST') ?>
+            <?= Form::open() ?>
             <div class="container 75%">
                 <div class="row uniform 50%">
 
                     <div class="6u 6u(xsmall)">
                             <!-- <input name="email" placeholder="Email" type="email" /> -->
-                        <?= Form::email('usuario.email', 'placeholder="Email"') ?>
+                        <?= Form::email('usuarios.email', 'placeholder="Email"') ?>
                     </div>
 
                     <div class="6u 6u(xsmall)">
                             <!-- <input name="email" placeholder="Email" type="email" /> -->
-                        <?= Form::pass('usuario.password', 'placeholder="Contraseña"') ?>
+                        <?= Form::pass('usuarios.password', 'placeholder="Contraseña"') ?>
                     </div>
 
                 </div>

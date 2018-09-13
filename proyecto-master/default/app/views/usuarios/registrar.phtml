@@ -10,21 +10,21 @@
                 </ul>
             </header>
 
-            <?= Form::open('', 'POST') ?>
+            <?= Form::open() ?>
             <div class="container 75%">
                 <div class="row uniform 50%">
                     <div class="4u 4u(xsmall)">
                             <!-- <input name="name" placeholder="Name" type="text" /> -->
-                        <?= Form::text('usuario.name', 'placeholder="Name"') ?>
+                        <?= Form::text('registrar.name', 'placeholder="Nombre"') ?>
                     </div>
                     <div class="4u 4u(xsmall)">
                             <!-- <input name="email" placeholder="Email" type="email" /> -->
-                        <?= Form::email('usuario.email', 'placeholder="Email"') ?>
+                        <?= Form::email('registrar.email', 'placeholder="Email"') ?>
                     </div>
 
                     <div class="4u 4u(xsmall)">
                             <!-- <input name="email" placeholder="Email" type="email" /> -->
-                        <?= Form::pass('usuario.password', 'placeholder="Contraseña"') ?>
+                        <?= Form::pass('registrar.password', 'placeholder="Contraseña"') ?>
                     </div>
 
                 </div>
