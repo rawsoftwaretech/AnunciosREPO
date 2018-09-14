@@ -1,9 +1,6 @@
 <?php
 
-class Usuarios extends ActiveRecord{
+class Usuarios extends ActiveRecord {
     
-    
-    
-    
-}
 
+}
