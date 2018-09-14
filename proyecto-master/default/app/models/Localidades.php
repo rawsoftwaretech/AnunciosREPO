@@ -7,11 +7,11 @@
  */
 
 /**
- * Description of Valoracion
+ * Description of Localidad
  *
  * @author Usuario
  */
-class Valoracion extends ActiveRecord {
+class Localidades extends ActiveRecord {
     
         public function getAll(){
 		$creditos; //query

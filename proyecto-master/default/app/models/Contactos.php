@@ -7,11 +7,11 @@
  */
 
 /**
- * Description of Cuenta
+ * Description of Contacto
  *
  * @author Usuario
  */
-class Cuenta extends ActiveRecord {
+class Contactos  extends ActiveRecord {
     
         public function getAll(){
 		$creditos; //query

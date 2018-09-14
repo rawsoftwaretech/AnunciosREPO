@@ -7,11 +7,11 @@
  */
 
 /**
- * Description of Oferta
+ * Description of Pais
  *
  * @author Usuario
  */
-class Oferta extends ActiveRecord {
+class Paises extends ActiveRecord {
     
         public function getAll(){
 		$creditos; //query

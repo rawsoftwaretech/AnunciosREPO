@@ -7,11 +7,11 @@
  */
 
 /**
- * Description of ProvinciaRegion
+ * Description of Localizacion
  *
  * @author Usuario
  */
-class ProvinciaRegion extends ActiveRecord {
+class Localizaciones extends ActiveRecord {
     
         public function getAll(){
 		$creditos; //query

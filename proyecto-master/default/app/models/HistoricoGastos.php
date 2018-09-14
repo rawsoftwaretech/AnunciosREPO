@@ -11,7 +11,7 @@
  *
  * @author Usuario
  */
-class HistoricoGasto extends ActiveRecord {
+class HistoricoGastos extends ActiveRecord {
     
         public function getAll(){
 		$creditos; //query

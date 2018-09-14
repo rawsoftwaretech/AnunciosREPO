@@ -7,10 +7,17 @@
  */
 
 /**
- * Description of MasterModel
+ * Description of ProvinciaRegion
  *
  * @author Usuario
  */
-class MasterModel {
-    //put your code here
+class ProvinciasRegiones extends ActiveRecord {
+    
+        public function getAll(){
+		$creditos; //query
+                return $this;
+	
+                
+        }
+	
 }
