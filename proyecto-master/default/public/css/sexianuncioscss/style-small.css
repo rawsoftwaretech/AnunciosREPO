@@ -87,7 +87,7 @@ header.major2 h2 + p{
 
 #footer .copyright {
     text-align: center;
-    
+
 }
 
 #footer .copyright li {
@@ -95,4 +95,9 @@ header.major2 h2 + p{
     margin-left: 0;
     padding-left: 0;
     display: block;
+}
+
+
+.row.uniform > * > :last-child {
+    margin-bottom:  2.6em;
 }

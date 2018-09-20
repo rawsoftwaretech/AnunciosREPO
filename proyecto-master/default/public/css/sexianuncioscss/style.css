@@ -46,8 +46,8 @@ em, i {
 
 .p1{
     margin: 0 0 0.1em 0;
-    width: 432px;
-    height: 50px;
+    width: 100%;
+    height: 60px;
     color: #FCACAC;
     font-size: 0.8em;
 }
@@ -295,6 +295,7 @@ textarea {
     padding: 0 1em;
     text-decoration: none;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 input[type="text"]:invalid,
@@ -518,7 +519,7 @@ input[type="radio"] + label:before {
     border: solid 1px #F5C9C9 ;
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
-    width: 1140px;
+    width: 100%;
     height: 240px;
     margin-left: -1.5em; 
 }
@@ -528,17 +529,18 @@ input[type="radio"] + label:before {
     border: solid 1px #F5C9C9 ;
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
-    width: 94%;
+    width: 95%;
     margin-left: 4em;
 }
 
 .box6{
     border-radius: 6px;
     border: solid 1px #F5C9C9 ;
-    width: 100%;
-    height: 85px;
+    width: 97%;
+    height: 128px;
     margin-bottom: 0em;
     margin-top: 0.1em;
+    margin-left: 0.5em
 }
 
 
@@ -627,9 +629,9 @@ input[type="radio"] + label:before {
 
 .image.fit1 img{
     display:block;
-    width: 90%;
-    height: 273px; 
-    margin-left: 0.9em;
+    width: 97%;
+    height: 298px; 
+    margin-left: 0.5em;
 
 }
 
@@ -648,7 +650,7 @@ ol li {
 
 ul {
     list-style: disc;
-    margin: 0 0 2em 0;
+    margin: 1em 0 0.2em 0;
     padding-left: 1em;
 }
 
@@ -703,6 +705,12 @@ ul.actions1 {
     padding-left: 0;
 }
 
+ul.actions2 {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
 ul.actions li {
     display: inline-block;
     padding: 0 0em 0 0;
@@ -710,6 +718,12 @@ ul.actions li {
 }
 
 ul.actions1 li {
+    display: inline-block;
+    padding: 0 0em 0 0;
+    vertical-align: middle;
+}
+
+ul.actions2 li {
     display: inline-block;
     padding: 0 0em 0 0;
     vertical-align: middle;
@@ -723,12 +737,20 @@ ul.actions1 li:last-child {
     padding-right: 0;
 }
 
+ul.actions2 li:last-child {
+    padding-right: 0;
+}
+
 
 ul.actions.small li {
     padding: 0 0.5em 0 0;
 }
 
 ul.actions1.small li {
+    padding: 0 0.5em 0 0;
+}
+
+ul.actions2.small li {
     padding: 0 0.5em 0 0;
 }
 
@@ -742,11 +764,20 @@ ul.actions1.vertical li {
     padding: 1em 0 0 0;
 }
 
+ul.actions2.vertical li {
+    display: block;
+    padding: 1em 0 0 0;
+}
+
 ul.actions.vertical li:first-child {
     padding-top: 0;
 }
 
 ul.actions1.vertical li:first-child {
+    padding-top: 0;
+}
+
+ul.actions2.vertical li:first-child {
     padding-top: 0;
 }
 
@@ -758,11 +789,19 @@ ul.actions1.vertical li > * {
     margin-bottom: 0;
 }
 
+ul.actions2.vertical li > * {
+    margin-bottom: -2em;
+}
+
 ul.actions.vertical.small li {
     padding: 0.5em 0 0 0;
 }
 
 ul.actions1.vertical.small li {
+    padding: 0.5em 0 0 0;
+}
+
+ul.actions2.vertical.small li {
     padding: 0.5em 0 0 0;
 }
 
@@ -774,6 +813,10 @@ ul.actions1.vertical.small li:first-child {
     padding-top: 0;
 }
 
+ul.actions2.vertical.small li:first-child {
+    padding-top: 0;
+}
+
 ul.actions.fit {
     display: table;
     margin-left: -1em;
@@ -782,12 +825,46 @@ ul.actions.fit {
     width: calc(100% + 1em);
 }
 
+ul.actions1.fit {
+    display: table;
+    margin-left: -1em;
+    padding: 0;
+    table-layout: fixed;
+    width: calc(100% + 1em);
+}
+
+ul.actions2.fit {
+    display: table;
+    margin-left: -1em;
+    padding: 0;
+    table-layout: fixed;
+    width: calc(100% + 1em);
+}
+
+
 ul.actions.fit li {
     display: table-cell;
     padding: 0 0 0 1em;
 }
 
+ul.actions1.fit li {
+    display: table-cell;
+    padding: 0 0 0 1em;
+}
+ul.actions2.fit li {
+    display: table-cell;
+    padding: 0 0 0 0em;
+}
+
 ul.actions.fit li > * {
+    margin-bottom: 0;
+}
+
+ul.actions1.fit li > * {
+    margin-bottom: 0;
+}
+
+ul.actions2.fit li > * {
     margin-bottom: 0;
 }
 
@@ -796,7 +873,25 @@ ul.actions.fit.small {
     width: calc(100% + 0.5em);
 }
 
+ul.actions1.fit.small {
+    margin-left: -0.5em;
+    width: calc(100% + 0.5em);
+}
+
+ul.actions2.fit.small {
+    margin-left: -0.5em;
+    width: calc(100% + 0.5em);
+}
+
 ul.actions.fit.small li {
+    padding: 0 0 0 0.5em;
+}
+
+ul.actions1.fit.small li {
+    padding: 0 0 0 0.5em;
+}
+
+ul.actions2.fit.small li {
     padding: 0 0 0 0.5em;
 }
 
@@ -1019,8 +1114,8 @@ input[type="button"].special,
     color: #ffffff !important;
     margin-top: 3em;
     width: 100%;
-    text-align: center;
-    text-indent: 1.5em;
+    text-indent: 1em;
+    font-size: 0.6em;
 }
 
 
