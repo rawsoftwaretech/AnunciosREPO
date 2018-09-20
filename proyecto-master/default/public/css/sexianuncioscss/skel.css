@@ -31,6 +31,12 @@
 			/* width: (containers) * 0.75; */
 			width: 900px;
 		}
+                
+                
+                .container.medium{
+                   width:  900px;
+                }
+                
 
 		.container.big {
 			width: 100%;
@@ -61,7 +67,7 @@
 	.\-9u { margin-left: 75% }
 	.\-8u { margin-left: 66.6666666667% }
 	.\-7u { margin-left: 58.3333333333% }
-	.\-6u { margin-left: 50% }
+	.\-6u { margin-left: 90% }
 	.\-5u { margin-left: 41.6666666667% }
 	.\-4u { margin-left: 33.3333333333% }
 	.\-3u { margin-left: 25% }
@@ -108,8 +114,8 @@
 
 			.row {
 				/* margin-left: -(gutters.vertical) */
-				margin-left: -1em;
-                                margin-right: 2em;
+				margin-left: 0em;
+                                margin-right: 0em;
 			}
 
 			.row + .row.uniform > * {

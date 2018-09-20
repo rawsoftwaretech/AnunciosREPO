@@ -3,21 +3,25 @@
 /* Basic */
 
 	html, body {
-		min-width: 320px;
+		min-width: 350px;
 	}
 
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
 /* List */
 
 	ul.actions {
-		margin: 0 0 2em 0;
+		margin: 0em 0 2em 0;
 	}
+        
+        ul.actions1 {
+		margin: 2em 0 2em 0;
+	}
+        
 
 		ul.actions li {
-			padding: 1em 0 0 0;
+			padding: 0 0 0 0;
 			display: block;
 			text-align: center;
 			width: 100%;
@@ -51,7 +55,7 @@
 	input[type="button"],
 	.button {
 		padding: 0;
-                
+                                
 	}
 
 /* Banner */
