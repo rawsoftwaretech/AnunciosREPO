@@ -98,6 +98,4 @@ header.major2 h2 + p{
 }
 
 
-.row.uniform > * > :last-child {
-    margin-bottom:  2.6em;
-}
+

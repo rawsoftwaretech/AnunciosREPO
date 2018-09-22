@@ -80,6 +80,16 @@ h2 {
     margin-bottom: 2em;
 }
 
+.h2n{ 
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.h2m{ 
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
 h3 {
     font-size: 1.25em;
     line-height: 1.5em;
@@ -194,6 +204,7 @@ header h2 + p {
     line-height: 1.5em;
 }
 
+
 header h3 + p {
     font-size: 1.1em;
     margin-top: -0.85em;
@@ -217,7 +228,7 @@ header.major {
 }
 
 header.major h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 header.major h2 + p {
@@ -231,9 +242,14 @@ header.major2 {
 }
 
 header.major2 h2 {
-    font-size: 4em;
+    font-size: 1.5em;
 
 }
+
+header.major2 h2m {
+    font-size: 2em;
+}
+
 
 header.major2 h2 + p {
     font-size: 1em;
@@ -532,11 +548,11 @@ input[type="radio"] + label:before {
 
 .box5{
     border-radius: 6px;
-    border: solid 1px #F5C9C9 ;
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
     width: 95%;
     margin-left: 4em;
+  
 }
 
 .box6{
@@ -556,41 +572,41 @@ input[type="radio"] + label:before {
 }
 
 .box8{ 
-    width: 30.1%;
+    width: 30.2%;
     height: 40px;
     margin-left: 3em;
 }
 
 .box9{ 
-    width: 24.1%;
+    width: 23.8%;
     height: 40px;
     margin-left: 3em;
 }
 
 .box10{ 
-    width: 28.5%;
+    width: 28.9%;
     height: 40px;
     margin-left: 3em;
 }
 
 .box11{ 
-    width: 33%;
+    width: 33.1%;
     height: 40px;
     margin-left: 3em;
 }
 .box12{ 
-    width: 21.2%;
+    width: 20.9%;
     height: 40px;
     margin-left: 3em;
 }
 .box13{ 
-    width: 31%;
+    width: 31.3%;
     height: 40px;
     margin-left: 3em;
 }
 
 .box13{ 
-    width: 31%;
+    width: 31.3%;
     height: 40px;
     margin-left: 3em;
 }
@@ -600,36 +616,44 @@ input[type="radio"] + label:before {
     margin-left: 3em;
 }
 .box15{ 
-    width: 21.4%;
+    width: 21.3%;
     height: 40px;
     margin-left: 2.2em;
 }
 .box16{ 
-    width: 31%;
+    width: 30.8%;
     height: 40px;
     margin-left: 3em;
 }
 
 .box17{ 
-    width: 39.8%;
+    width: 29.6%;
     height: 40px;
-    margin-left: 2em;
+    margin-left: 6em;
 
 
 }
 
 .box18{ 
-    width: 21.5%;
+    width: 28.9%;
     height: 40px;
-    margin-left: 0em;
+    margin-left: 1em;
 
 }
 
 .box19{ 
-    width: 31.7%;
+    width: 26.9%;
     height: 40px;
-    margin-left: 3em;
+    margin-left: 2em;
     margin-bottom: 1.8em;
+}
+
+.box20{ 
+    width: 96%;
+    height: 40px;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 4em;
 }
 
 
@@ -1346,6 +1370,26 @@ input[type="button"]:disabled,
     color: #FCACAC;
 }
 
+.wrapper.style6 {
+    background-attachment: fixed;
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/d1.jpg");
+    background-position: center center,bottom;
+    background-size: cover;
+    height: 30em;
+}
+
+.wrapper.style6 header.major {
+    margin-bottom: 3em;
+}
+
+.wrapper.style6 header.major h2 {
+    color: #ffffff;
+}
+
+body.is-touch .wrapper.style6 {
+    background-attachment: scroll;
+}
+
 
 
 /* Header */
@@ -1431,7 +1475,7 @@ input[type="button"]:disabled,
     margin-bottom: 1em;
     padding: 0 1em;
     position: relative;
-    top: -0.075em;
+    top: -0.5em;
     vertical-align: middle;
 }
 
@@ -1465,7 +1509,7 @@ input[type="button"]:disabled,
 }
 #banner1{
     background-color: #666666;
-    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/imgb1.png");
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/d3.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1473,8 +1517,46 @@ input[type="button"]:disabled,
     padding: 10em 0;
     text-align: center;
     position: relative;
-    height: 500px;
+    height: 600px;
 }
+
+
+#banner2 {
+    padding: 16em 0 13em 0;
+    background-attachment: fixed;
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/d1.jpg");
+    background-position: center top;
+    background-size: cover;
+    line-height: 1.75;
+    text-align: center;
+    height: 40em;
+}
+
+#banner2 :last-child {
+    margin-bottom: 0;
+}
+
+#banner2 h2 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 3.5em;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+}
+
+#banner2 p {
+    color: #aaa;
+    font-size: 1.5em;
+    margin-bottom: 1.75em;
+    text-transform: uppercase;
+}
+
+body.is-touch #banner2 {
+    background-attachment: scroll;
+}
+
+
+
 
 
 
