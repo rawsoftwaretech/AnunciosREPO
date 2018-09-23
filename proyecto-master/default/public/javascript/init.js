@@ -14,11 +14,21 @@
     skel.init({
         reset: 'full',
         breakpoints: {
+<<<<<<< HEAD
+=======
+            
+            
+      
+>>>>>>> nor
 
             // Global.
             global: {
                 range: '*',
+<<<<<<< HEAD
                 href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style.css',
+=======
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style.css',
+>>>>>>> nor
                 containers: 1400,
                 grid: {
                     gutters: {
@@ -28,17 +38,30 @@
                 }
             },
 
+<<<<<<< HEAD
             // XLarge.
             xlarge: {
                 range: '-1680',
                 href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-xlarge.css',
+=======
+            
+
+            // XLarge.
+            xlarge: {
+                range: '-1680',
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-xlarge.css',
+>>>>>>> nor
                 containers: 1200
             },
 
             // Large.
             large: {
                 range: '-1280',
+<<<<<<< HEAD
                 href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-large.css',
+=======
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-large.css',
+>>>>>>> nor
                 containers: 960,
                 grid: {
                     gutters: {
@@ -53,7 +76,11 @@
             // Medium.
             medium: {
                 range: '-980',
+<<<<<<< HEAD
                 href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-medium.css',
+=======
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-medium.css',
+>>>>>>> nor
                 containers: '90%',
                 grid: {
                     collapse: 1
@@ -63,7 +90,11 @@
             // Small.
             small: {
                 range: '-736',
+<<<<<<< HEAD
                 href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-small.css',
+=======
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-small.css',
+>>>>>>> nor
                 containers: '90%',
                 grid: {
                     gutters: {
@@ -75,7 +106,11 @@
             // XSmall.
             xsmall: {
                 range: '-480',
+<<<<<<< HEAD
                 href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-xsmall.css',
+=======
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-xsmall.css',
+>>>>>>> nor
                 grid: {
                     collapse: 2
                 }

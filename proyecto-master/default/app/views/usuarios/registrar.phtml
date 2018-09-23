@@ -1,0 +1,45 @@
+<body id="top">
+
+    <section id="four" class="wrapper style4 special">
+        <div class="inner"> 
+            <header class="major2 narrow">
+                <h2><?= Html::link('index/inicio', 'SEXYANUNCIOS.COM') ?></h2>
+                <p>La mejor web de anuncios eróticos</p>
+                <ul class="actions">
+
+                </ul>
+            </header>
+
+            <?= Form::open('usuarios/create') ?>
+            <div class="container 75%">
+                <div class="row uniform 50%">
+                    <div class="4u 4u(xsmall)">
+                            <!-- <input name="name" placeholder="Name" type="text" /> -->
+                        <?= Form::text('usuarios.nombre', 'placeholder="Nombre"') ?>
+                    </div>
+                    <div class="4u 4u(xsmall)">
+                            <!-- <input name="email" placeholder="Email" type="email" /> -->
+                        <?= Form::email('usuarios.email', 'placeholder="Email"') ?>
+                    </div>
+
+                    <div class="4u 4u(xsmall)">
+                            <!-- <input name="email" placeholder="Email" type="email" /> -->
+                        <?= Form::pass('usuarios.contraseña', 'placeholder="Contraseña"') ?>
+                    </div>
+
+                </div>
+            </div>
+            <ul class="actions1">
+                <li>
+                      <!-- <input type="submit" class="special" value="Submit" /> -->
+                    <?= Form::submit('&nbsp;&nbsp;&nbsp;Registrar&nbsp;&nbsp;&nbsp;&nbsp;', 'class="button special"') ?>
+                </li>
+
+            </ul>
+            <?= Form::close() ?>
+            </form>
+        </div>
+    </section>
+
+</body>
+

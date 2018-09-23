@@ -11,6 +11,7 @@ class AnunciosController extends AppController {
     public function index() {
         
     }
+<<<<<<< HEAD
 
     public function login() {
         
@@ -29,6 +30,15 @@ class AnunciosController extends AppController {
     }
     
     public function personalbanner($action = NULL, $method = 'POST', $attrs = NULL){
+=======
+    
+    
+    public function anunciogratis(){
+        
+    }
+
+    public function listanuncio() {
+>>>>>>> nor
         
     }
 
