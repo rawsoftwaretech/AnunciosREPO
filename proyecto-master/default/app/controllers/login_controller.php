@@ -1,8 +1,5 @@
-<?php
-
-
-
-class  DestacarController extends AppController{
+<?php 
+class LoginController extends AppController{
     
     protected function before_filter() {
         parent::before_filter();
@@ -13,9 +10,9 @@ class  DestacarController extends AppController{
         
     }
     
-    public function destacaranuncio(){
+    
+    public function login(){
         
-    }
-    
-    
+    } 
+            
 }
