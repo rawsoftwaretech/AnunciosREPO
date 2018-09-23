@@ -12,12 +12,13 @@ class AnunciosController extends AppController {
         
     }
     
-    public function listanuncio(){
+    
+    public function anunciogratis(){
         
     }
 
-    public function login() {
+    public function listanuncio() {
         
     }
- 
+
 }

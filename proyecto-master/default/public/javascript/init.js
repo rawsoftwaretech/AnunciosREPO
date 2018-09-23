@@ -14,11 +14,14 @@
     skel.init({
         reset: 'full',
         breakpoints: {
+            
+            
+      
 
             // Global.
             global: {
                 range: '*',
-                href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style.css',
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style.css',
                 containers: 1400,
                 grid: {
                     gutters: {
@@ -28,17 +31,19 @@
                 }
             },
 
+            
+
             // XLarge.
             xlarge: {
                 range: '-1680',
-                href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-xlarge.css',
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-xlarge.css',
                 containers: 1200
             },
 
             // Large.
             large: {
                 range: '-1280',
-                href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-large.css',
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-large.css',
                 containers: 960,
                 grid: {
                     gutters: {
@@ -53,7 +58,7 @@
             // Medium.
             medium: {
                 range: '-980',
-                href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-medium.css',
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-medium.css',
                 containers: '90%',
                 grid: {
                     collapse: 1
@@ -63,7 +68,7 @@
             // Small.
             small: {
                 range: '-736',
-                href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-small.css',
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-small.css',
                 containers: '90%',
                 grid: {
                     gutters: {
@@ -75,7 +80,7 @@
             // XSmall.
             xsmall: {
                 range: '-480',
-                href: 'http://localhost/proyecto-master/default/public/css/sexianuncioscss/style-xsmall.css',
+                href: 'http://localhost/AnunciosREPO/proyecto-master/default/public/css/sexianuncioscss/style-xsmall.css',
                 grid: {
                     collapse: 2
                 }
