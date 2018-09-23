@@ -13,16 +13,9 @@ class IndexController extends AppController {
     public function index() {
        
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     
     public function inicio(){
         
         
     }
->>>>>>> nor
-=======
->>>>>>> jos
-
 }

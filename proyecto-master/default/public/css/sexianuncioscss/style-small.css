@@ -2,10 +2,6 @@
 
 /* Basic */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> jos
 	body, input, select, textarea {
 		font-size: 15pt;
                
@@ -25,7 +21,6 @@
 		font-size: 1em;
 		line-height: 1.5em;
 	}
-<<<<<<< HEAD
 
 /* Section/Article */
 
@@ -86,7 +81,6 @@
 				padding-left: 0;
 				display: block;
 			}
-=======
 body, input, select, textarea {
     font-size: 15pt;
 
@@ -109,10 +103,6 @@ h4 {
     line-height: 1.5em;
 }
 
-
-=======
->>>>>>> jos
-
 /* Section/Article */
 
 	header.major {
@@ -166,13 +156,9 @@ h4 {
 			text-align: left;
 		}
 
-<<<<<<< HEAD
->>>>>>> nor
-=======
 			#footer .copyright li {
 				border-left: 0;
 				margin-left: 0;
 				padding-left: 0;
 				display: block;
 			}
->>>>>>> jos

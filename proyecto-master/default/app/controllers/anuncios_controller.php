@@ -11,11 +11,6 @@ class AnunciosController extends AppController {
     public function index() {
         
     }
-<<<<<<< HEAD
-
-    public function login() {
-        
-    }
 
     public function iniciosesion() {
         
@@ -30,18 +25,13 @@ class AnunciosController extends AppController {
     }
     
     public function personalbanner($action = NULL, $method = 'POST', $attrs = NULL){
-=======
+    }
     
     public function listanuncio(){
         
     }
-
-<<<<<<< HEAD
-    public function listanuncio() {
->>>>>>> nor
-=======
+        
     public function login() {
->>>>>>> jos
         
     }
  

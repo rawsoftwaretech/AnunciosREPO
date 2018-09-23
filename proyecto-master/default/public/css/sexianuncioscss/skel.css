@@ -31,18 +31,10 @@
 			/* width: (containers) * 0.75; */
 			width: 900px;
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                
                 
                 .container.medium{
                    width:  900px;
                 }
-                
->>>>>>> nor
-=======
->>>>>>> jos
 
 		.container.big {
 			width: 100%;
@@ -59,49 +51,21 @@
 	.\31 2u { width: 100% }
 	.\31 1u { width: 91.6666666667% }
 	.\31 0u { width: 83.3333333333% }
-<<<<<<< HEAD
-<<<<<<< HEAD
-	.\39 u { width: 75% }
-=======
 	.\39 u { width: 79% }
->>>>>>> nor
-=======
-	.\39 u { width: 75% }
->>>>>>> jos
 	.\38 u { width: 66.6666666667% }
 	.\37 u { width: 58.3333333333% }
 	.\36 u { width: 50% }
 	.\35 u { width: 41.6666666667% }
 	.\34 u { width: 33.3333333333% }
-<<<<<<< HEAD
-<<<<<<< HEAD
-	.\33 u { width: 25% }
-	.\32 u { width: 16.6666666667% }
-	.\31 u { width: 8.3333333333% }
-=======
 	.\33 u { width: 19.1% }
 	.\32 u { width: 16% }
 	.\31 u { width: 82.333333% }
->>>>>>> nor
-=======
-	.\33 u { width: 25% }
-	.\32 u { width: 16.6666666667% }
-	.\31 u { width: 8.3333333333% }
->>>>>>> jos
 	.\-11u { margin-left: 91.6666666667% }
 	.\-10u { margin-left: 83.3333333333% }
 	.\-9u { margin-left: 75% }
 	.\-8u { margin-left: 66.6666666667% }
 	.\-7u { margin-left: 58.3333333333% }
-<<<<<<< HEAD
-<<<<<<< HEAD
-	.\-6u { margin-left: 50% }
-=======
 	.\-6u { margin-left: 90% }
->>>>>>> nor
-=======
-	.\-6u { margin-left: 50% }
->>>>>>> jos
 	.\-5u { margin-left: 41.6666666667% }
 	.\-4u { margin-left: 33.3333333333% }
 	.\-3u { margin-left: 25% }
@@ -148,18 +112,8 @@
 
 			.row {
 				/* margin-left: -(gutters.vertical) */
-<<<<<<< HEAD
-<<<<<<< HEAD
-				margin-left: -1em;
-                                margin-right: 2em;
-=======
 				margin-left: 0em;
                                 margin-right: 0em;
->>>>>>> nor
-=======
-				margin-left: -1em;
-                                margin-right: 2em;
->>>>>>> jos
 			}
 
 			.row + .row.uniform > * {

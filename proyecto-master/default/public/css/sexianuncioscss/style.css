@@ -46,18 +46,8 @@ em, i {
 
 .p1{
     margin: 0 0 0.1em 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 432px;
-    height: 50px;
-=======
     width: 100%;
     height: 60px;
->>>>>>> nor
-=======
-    width: 432px;
-    height: 50px;
->>>>>>> jos
     color: #FCACAC;
     font-size: 0.8em;
 }
@@ -71,11 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #717CC8  ;
     font-weight: 200;
     line-height: 1em;
-<<<<<<< HEAD
-    margin: 0 0 0.0em 0;
-=======
     margin: 0 0 0.4em 0;
->>>>>>> nor
     text-transform: uppercase;
     letter-spacing: 0.125em;
 }
@@ -89,20 +75,9 @@ h2 {
     font-size: 1.5em;
     line-height: 1.5em;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.h2{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-=======
->>>>>>> jos
-
 .h2{
     margin-top: 1em;
 }
->>>>>>> nor
 
 h3 {
     font-size: 1.25em;
@@ -218,13 +193,6 @@ header h2 + p {
     line-height: 1.5em;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> nor
-=======
->>>>>>> jos
 header h3 + p {
     font-size: 1.1em;
     margin-top: -0.85em;
@@ -248,15 +216,7 @@ header.major {
 }
 
 header.major h2 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-size: 2em;
-=======
     font-size: 1.5em;
->>>>>>> nor
-=======
-    font-size: 2em;
->>>>>>> jos
 }
 
 header.major h2 + p {
@@ -266,8 +226,6 @@ header.major h2 + p {
 
 header.major2 {
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 5.1em 0 6.2em 0;
 }
 
@@ -277,11 +235,7 @@ header.major2 h2 {
 
 header.major2 h2 + p {
     font-size: 2em;
-=======
     margin: 4em 0 4em 0;
-=======
-    margin: 5.1em 0 6.2em 0;
->>>>>>> jos
 }
 
 header.major2 h2 {
@@ -289,12 +243,7 @@ header.major2 h2 {
 }
 
 header.major2 h2 + p {
-<<<<<<< HEAD
     font-size: 1em;
->>>>>>> nor
-=======
-    font-size: 2em;
->>>>>>> jos
     margin: 0em 0 2em 0;
     color: #FCACAC;
 }
@@ -353,13 +302,7 @@ textarea {
     padding: 0 1em;
     text-decoration: none;
     width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     margin-bottom: 2em;
->>>>>>> nor
-=======
->>>>>>> jos
 }
 
 input[type="text"]:invalid,
@@ -426,13 +369,6 @@ textarea {
     padding: 0.75em 1em;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> nor
-=======
->>>>>>> jos
 input[type="checkbox"],
 input[type="radio"] {
     -moz-appearance: none;
@@ -442,36 +378,16 @@ input[type="radio"] {
     appearance: none;
     display: block;
     float: left;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    margin-right: 2em;
-=======
     margin-right: -2em;
->>>>>>> nor
-=======
-    margin-right: -7em;
->>>>>>> jos
     opacity: 0;
     width: 1em;
     z-index: -1;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-input[type="checkbox"] + label,
-input[type="radio"] + label {
-    text-decoration: none;
-    color: #555f66;
-=======
-
-
-=======
->>>>>>> jos
 input[type="checkbox"] + label,
 input[type="radio"] + label {
     text-decoration: none;
     color: #629DD1;
->>>>>>> nor
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -495,11 +411,7 @@ input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
     background: rgba(144, 144, 144, 0.075);
     border-radius: 6px;
-<<<<<<< HEAD
-    border: solid 1px rgba(144, 144, 144, 0.25);
-=======
     border: solid 1px #FCACAC;
->>>>>>> nor
     content: '';
     display: inline-block;
     height: 1.65em;
@@ -515,11 +427,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
     background: #192024;
     border-color: #192024;
-<<<<<<< HEAD
-    color: #555f66;
-=======
     color: #FCACAC;
->>>>>>> nor
     content: '\f00c';
 }
 
@@ -537,15 +445,6 @@ input[type="radio"] + label:before {
     border-radius: 100%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> nor
-=======
->>>>>>> jos
 ::-webkit-input-placeholder {
     color: #FCACAC !important;
     opacity: 1.0;
@@ -585,16 +484,6 @@ input[type="radio"] + label:before {
 .box > :last-child > :last-child > :last-child {
     margin-bottom: 0;
 }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> nor
-=======
->>>>>>> jos
 .box.alt {
     border: 0;
     border-radius: 0;
@@ -606,8 +495,6 @@ input[type="radio"] + label:before {
     border: solid 1px #F5C9C9 ;
     margin-bottom: 0.50em;
     padding: 0.50em 0.50em;
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 450px;
     height: 324px;
     margin-left: 1em;
@@ -619,31 +506,7 @@ input[type="radio"] + label:before {
 }
 
 .box3{
-   border-radius: 6px;
-=======
-    width: 100%;
-    height: 445px;
-    margin-left: 0em;
-
-=======
-    width: 450px;
-    height: 324px;
-    margin-left: 1em;
->>>>>>> jos
-}
-.box2{
-    width: 432px;
-    height: 25px;
-    margin-bottom: 2.3em;
-}
-
-.box3{
-<<<<<<< HEAD
     border-radius: 6px;
->>>>>>> nor
-=======
-   border-radius: 6px;
->>>>>>> jos
     border: solid 1px #F5C9C9 ;
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
@@ -657,21 +520,11 @@ input[type="radio"] + label:before {
     border: solid 1px #F5C9C9 ;
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1140px;
-=======
     width: 100%;
->>>>>>> nor
-=======
-    width: 1140px;
->>>>>>> jos
     height: 240px;
     margin-left: -1.5em; 
 }
 
-<<<<<<< HEAD
-=======
 .box5{
     border-radius: 6px;
     border: solid 1px #F5C9C9 ;
@@ -683,7 +536,6 @@ input[type="radio"] + label:before {
 }
 
 
->>>>>>> nor
 /* Icon */
 
 .icon {
@@ -749,13 +601,6 @@ input[type="radio"] + label:before {
 .image.fit {
     display: block;
     width: 62%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> nor
-=======
->>>>>>> jos
     position: relative;
     bottom: 0.8em;
 }
@@ -766,45 +611,21 @@ input[type="radio"] + label:before {
 }
 
 .image.fit1{
-<<<<<<< HEAD
-<<<<<<< HEAD
     display: block;
     width: 70%;
 
     position: relative;
-=======
     display: contents;
-=======
-    display: block;
->>>>>>> jos
     width: 70%;
-
     position: relative;
-<<<<<<< HEAD
     margin-right:0em;
->>>>>>> nor
-=======
->>>>>>> jos
 }
 
 .image.fit1 img{
     display:block;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 86%;
-    height: 220px; 
-    margin-left: 5.8em;
-=======
     width: 97%;
     height: 298px; 
     margin-left: 0.5em;
->>>>>>> nor
-=======
-    width: 86%;
-    height: 220px; 
-    margin-left: 5.8em;
->>>>>>> jos
-
 }
 
 
@@ -822,15 +643,7 @@ ol li {
 
 ul {
     list-style: disc;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    margin: 0 0 2em 0;
-=======
     margin: 1em 0 0.2em 0;
->>>>>>> nor
-=======
-    margin: 0 0 2em 0;
->>>>>>> jos
     padding-left: 1em;
 }
 
@@ -878,13 +691,6 @@ ul.actions {
     padding-left: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-ul.actions li {
-    display: inline-block;
-    padding: 0 1em 0 0;
-=======
-
 ul.actions1 {
     cursor: default;
     list-style: none;
@@ -912,12 +718,6 @@ ul.actions1 li {
 ul.actions2 li {
     display: inline-block;
     padding: 0 0em 0 0;
->>>>>>> nor
-=======
-ul.actions li {
-    display: inline-block;
-    padding: 0 1em 0 0;
->>>>>>> jos
     vertical-align: middle;
 }
 
@@ -925,9 +725,6 @@ ul.actions li:last-child {
     padding-right: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1 li:last-child {
     padding-right: 0;
 }
@@ -937,16 +734,10 @@ ul.actions2 li:last-child {
 }
 
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.small li {
     padding: 0 0.5em 0 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.small li {
     padding: 0 0.5em 0 0;
 }
@@ -955,17 +746,11 @@ ul.actions2.small li {
     padding: 0 0.5em 0 0;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.vertical li {
     display: block;
     padding: 1em 0 0 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.vertical li {
     display: block;
     padding: 1em 0 0 0;
@@ -976,16 +761,10 @@ ul.actions2.vertical li {
     padding: 1em 0 0 0;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.vertical li:first-child {
     padding-top: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.vertical li:first-child {
     padding-top: 0;
 }
@@ -993,17 +772,10 @@ ul.actions1.vertical li:first-child {
 ul.actions2.vertical li:first-child {
     padding-top: 0;
 }
-
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.vertical li > * {
     margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.vertical li > * {
     margin-bottom: 0;
 }
@@ -1012,16 +784,10 @@ ul.actions2.vertical li > * {
     margin-bottom: -2em;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.vertical.small li {
     padding: 0.5em 0 0 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.vertical.small li {
     padding: 0.5em 0 0 0;
 }
@@ -1030,16 +796,10 @@ ul.actions2.vertical.small li {
     padding: 0.5em 0 0 0;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.vertical.small li:first-child {
     padding-top: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.vertical.small li:first-child {
     padding-top: 0;
 }
@@ -1048,9 +808,6 @@ ul.actions2.vertical.small li:first-child {
     padding-top: 0;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.fit {
     display: table;
     margin-left: -1em;
@@ -1059,9 +816,6 @@ ul.actions.fit {
     width: calc(100% + 1em);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.fit {
     display: table;
     margin-left: -1em;
@@ -1079,17 +833,11 @@ ul.actions2.fit {
 }
 
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.fit li {
     display: table-cell;
     padding: 0 0 0 1em;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.fit li {
     display: table-cell;
     padding: 0 0 0 1em;
@@ -1099,16 +847,10 @@ ul.actions2.fit li {
     padding: 0 0 0 0em;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.fit li > * {
     margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.fit li > * {
     margin-bottom: 0;
 }
@@ -1117,17 +859,11 @@ ul.actions2.fit li > * {
     margin-bottom: 0;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.fit.small {
     margin-left: -0.5em;
     width: calc(100% + 0.5em);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.fit.small {
     margin-left: -0.5em;
     width: calc(100% + 0.5em);
@@ -1138,16 +874,10 @@ ul.actions2.fit.small {
     width: calc(100% + 0.5em);
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 ul.actions.fit.small li {
     padding: 0 0 0 0.5em;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ul.actions1.fit.small li {
     padding: 0 0 0 0.5em;
 }
@@ -1156,9 +886,6 @@ ul.actions2.fit.small li {
     padding: 0 0 0 0.5em;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 dl {
     margin: 0 0 2em 0;
 }
@@ -1366,12 +1093,6 @@ input[type="button"].special,
 .button.special1{
     background-color: #629DD1;
     color: #ffffff !important;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 10.5em;
-    height: 2.5em;
-    font-size: 0.5em;
-=======
     width: 100%;
     font-size: 0.6em;
 }
@@ -1386,12 +1107,6 @@ input[type="button"].special,
     width: 100%;
     text-indent: 1em;
     font-size: 0.6em;
->>>>>>> nor
-=======
-    width: 10.5em;
-    height: 2.5em;
-    font-size: 0.5em;
->>>>>>> jos
 }
 
 
@@ -1430,17 +1145,8 @@ input[type="button"]:disabled,
 }
 
 .wrapper.style1 {
-<<<<<<< HEAD
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
-    color: #555f66;
-=======
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
-<<<<<<< HEAD
-
->>>>>>> nor
-=======
->>>>>>> jos
 }
 
 .wrapper.style2 {
@@ -1473,19 +1179,8 @@ input[type="button"]:disabled,
     color: #a3a5a7;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.wrapper.style3 {
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
-=======
-
-
-=======
->>>>>>> jos
 .wrapper.style3 {
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
->>>>>>> nor
-
     color: #555f66;
 }
 
@@ -1517,26 +1212,10 @@ input[type="button"]:disabled,
 }
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.wrapper.style4 {
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
-    color: #555f66;
-    height: 43em;
-=======
-
-
 .wrapper.style4 {
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
     height: 42.7em;
->>>>>>> nor
-=======
-.wrapper.style4 {
-    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
-    color: #555f66;
-    height: 43em;
->>>>>>> jos
 }
 
 .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -1550,11 +1229,7 @@ input[type="button"]:disabled,
 
 
 .wrapper.style5{
-<<<<<<< HEAD
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
-=======
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
->>>>>>> nor
     color: #555f66;
     height: 50em;
 }
@@ -1568,9 +1243,6 @@ input[type="button"]:disabled,
     color: #FCACAC;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 .wrapper.style6 {
     background-attachment: fixed;
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/d1.jpg");
@@ -1591,10 +1263,6 @@ body.is-touch .wrapper.style6 {
     background-attachment: scroll;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
-
 
 /* Header */
 
@@ -1603,11 +1271,7 @@ body.is-touch .wrapper.style6 {
 }
 
 #header {
-<<<<<<< HEAD
-    background:  url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
-=======
     background:  url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
->>>>>>> nor
     color: #555f66;
     cursor: default;
     height: 3em;
@@ -1683,15 +1347,7 @@ body.is-touch .wrapper.style6 {
     margin-bottom: 1em;
     padding: 0 1em;
     position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    top: -0.075em;
-=======
     top: -0.5em;
->>>>>>> nor
-=======
-    top: -0.075em;
->>>>>>> jos
     vertical-align: middle;
 }
 
@@ -1714,11 +1370,8 @@ body.is-touch .wrapper.style6 {
 
 #banner {
     background-color: #666666;
-<<<<<<< HEAD
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bannerp2.png");
-=======
+
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bannerp2.png");
->>>>>>> nor
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1727,23 +1380,10 @@ body.is-touch .wrapper.style6 {
     text-align: center;
     position: relative;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-#banner1{
-    background-color: #666666;
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/imgb1.png");
-=======
 #banner1{
     background-color: #666666;
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/d3.jpg");
->>>>>>> nor
-=======
-
-#banner1{
-    background-color: #666666;
-    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/imgb1.png");
->>>>>>> jos
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1751,15 +1391,8 @@ body.is-touch .wrapper.style6 {
     padding: 10em 0;
     text-align: center;
     position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 500px;
 }
-
-=======
-    height: 600px;
-}
-
 
 #banner2 {
     padding: 16em 0 13em 0;
@@ -1795,17 +1428,6 @@ body.is-touch #banner2 {
     background-attachment: scroll;
 }
 
-
-
-
-
-
->>>>>>> nor
-=======
-    height: 500px;
-}
-
->>>>>>> jos
 #banner:before {
     content: '';
     position: absolute;
@@ -1815,9 +1437,6 @@ body.is-touch #banner2 {
     height: 100%;
     background: rgba(64, 72, 80, 0.25);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1:before {
     content: '';
     position: absolute;
@@ -1828,131 +1447,70 @@ body.is-touch #banner2 {
     background: rgba(64, 72, 80, 0.25);
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
 
 #banner .inner {
     position: relative;
     z-index: 1;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 .inner {
     position: relative;
     z-index: 1;
 }
 
-
->>>>>>> nor
-=======
->>>>>>> jos
-
 #banner .inner :last-child {
     margin-bottom: 0;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 .inner :last-child {
     margin-bottom: 0;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
-
-
 #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
     color: #FCACAC;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 h2, #banner1 h3, #banner1 h4, #banner1 h5, #banner1 h6 {
     color: #FCACAC;
 }
-
->>>>>>> nor
-=======
->>>>>>> jos
 
 #banner .button.alt {
     box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
     color: #ffffff !important;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 .button.alt {
     box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
     color: #ffffff !important;
 }
 
 
->>>>>>> nor
-=======
->>>>>>> jos
-
 #banner .button.alt:hover {
     background-color: rgba(144, 144, 144, 0.275);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 .button.alt:hover {
     background-color: rgba(144, 144, 144, 0.275);
 }
 
 
->>>>>>> nor
-=======
->>>>>>> jos
-
 #banner .button.alt:active {
     background-color: rgba(144, 144, 144, 0.4);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 .button.alt:active {
     background-color: rgba(144, 144, 144, 0.4);
 }
 
 
->>>>>>> nor
-=======
->>>>>>> jos
-
 #banner .button.alt.icon:before {
     color: #c1c1c1;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 .button.alt.icon:before {
     color: #c1c1c1;
 }
 
->>>>>>> nor
-=======
->>>>>>> jos
-
 #banner .button {
     min-width: 12em;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 .button {
     min-width: 12em;
 }
 
-
->>>>>>> nor
-=======
->>>>>>> jos
 
 #banner h2 {
     font-size: 3.5em;
@@ -1960,9 +1518,6 @@ body.is-touch #banner2 {
     margin: 0 0 0.5em 0;
     padding: 0;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #banner1 h2 {
     font-size: 3.5em;
     line-height: 1em;
@@ -1970,57 +1525,30 @@ body.is-touch #banner2 {
     padding: 0;
 }
 
-
->>>>>>> nor
-=======
->>>>>>> jos
-
 #banner p {
     font-size: 1.5em;
     margin-bottom: 2em;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 #banner1 p {
     font-size: 1.5em;
     margin-bottom: 2em;
 }
 
-
->>>>>>> nor
-=======
->>>>>>> jos
-
 #banner p a {
     color: #ffffff;
     text-decoration: none;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 #banner1 p a {
     color: #ffffff;
     text-decoration: none;
 }
 
-
-
-
-
->>>>>>> nor
-=======
->>>>>>> jos
-
 /* Footer */
 
 #footer {
-<<<<<<< HEAD
-    background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
-=======
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
->>>>>>> nor
-
     padding: 1em 0 0.70em 0;
 }
 
@@ -2052,16 +1580,4 @@ body.is-touch #banner2 {
 
 #footer .icons a {
     color: #FCACAC;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-
-
-=======
-}
->>>>>>> nor
-=======
-}
-
-
->>>>>>> jos
