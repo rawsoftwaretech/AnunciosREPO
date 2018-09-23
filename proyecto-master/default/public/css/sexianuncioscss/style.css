@@ -47,12 +47,17 @@ em, i {
 .p1{
     margin: 0 0 0.1em 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 432px;
     height: 50px;
 =======
     width: 100%;
     height: 60px;
 >>>>>>> nor
+=======
+    width: 432px;
+    height: 50px;
+>>>>>>> jos
     color: #FCACAC;
     font-size: 0.8em;
 }
@@ -85,20 +90,17 @@ h2 {
     line-height: 1.5em;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .h2{
     margin-top: 2em;
     margin-bottom: 2em;
 }
+=======
+>>>>>>> jos
 
-.h2n{ 
+.h2{
     margin-top: 1em;
-    margin-bottom: 0.5em;
-}
-
-.h2m{ 
-    margin-top: 3em;
-    margin-bottom: 2em;
 }
 >>>>>>> nor
 
@@ -217,9 +219,12 @@ header h2 + p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 header h3 + p {
     font-size: 1.1em;
     margin-top: -0.85em;
@@ -244,10 +249,14 @@ header.major {
 
 header.major h2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-size: 2em;
 =======
     font-size: 1.5em;
 >>>>>>> nor
+=======
+    font-size: 2em;
+>>>>>>> jos
 }
 
 header.major h2 + p {
@@ -257,6 +266,7 @@ header.major h2 + p {
 
 header.major2 {
     text-align: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin: 5.1em 0 6.2em 0;
 }
@@ -269,21 +279,22 @@ header.major2 h2 + p {
     font-size: 2em;
 =======
     margin: 4em 0 4em 0;
+=======
+    margin: 5.1em 0 6.2em 0;
+>>>>>>> jos
 }
 
 header.major2 h2 {
-    font-size: 1.5em;
-
+    font-size: 4em;
 }
-
-header.major2 h2m {
-    font-size: 2em;
-}
-
 
 header.major2 h2 + p {
+<<<<<<< HEAD
     font-size: 1em;
 >>>>>>> nor
+=======
+    font-size: 2em;
+>>>>>>> jos
     margin: 0em 0 2em 0;
     color: #FCACAC;
 }
@@ -343,9 +354,12 @@ textarea {
     text-decoration: none;
     width: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-bottom: 2em;
 >>>>>>> nor
+=======
+>>>>>>> jos
 }
 
 input[type="text"]:invalid,
@@ -413,9 +427,12 @@ textarea {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 input[type="checkbox"],
 input[type="radio"] {
     -moz-appearance: none;
@@ -426,15 +443,20 @@ input[type="radio"] {
     display: block;
     float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right: 2em;
 =======
     margin-right: -2em;
 >>>>>>> nor
+=======
+    margin-right: -7em;
+>>>>>>> jos
     opacity: 0;
     width: 1em;
     z-index: -1;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 input[type="checkbox"] + label,
 input[type="radio"] + label {
@@ -443,6 +465,8 @@ input[type="radio"] + label {
 =======
 
 
+=======
+>>>>>>> jos
 input[type="checkbox"] + label,
 input[type="radio"] + label {
     text-decoration: none;
@@ -514,11 +538,14 @@ input[type="radio"] + label:before {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ::-webkit-input-placeholder {
     color: #FCACAC !important;
     opacity: 1.0;
@@ -560,11 +587,14 @@ input[type="radio"] + label:before {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 .box.alt {
     border: 0;
     border-radius: 0;
@@ -576,6 +606,7 @@ input[type="radio"] + label:before {
     border: solid 1px #F5C9C9 ;
     margin-bottom: 0.50em;
     padding: 0.50em 0.50em;
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 450px;
     height: 324px;
@@ -594,17 +625,25 @@ input[type="radio"] + label:before {
     height: 445px;
     margin-left: 0em;
 
+=======
+    width: 450px;
+    height: 324px;
+    margin-left: 1em;
+>>>>>>> jos
 }
 .box2{
-    width: 100%;
-    height: 41px;
-    margin-bottom: 0em;
-    margin-top: 0.5em; 
+    width: 432px;
+    height: 25px;
+    margin-bottom: 2.3em;
 }
 
 .box3{
+<<<<<<< HEAD
     border-radius: 6px;
 >>>>>>> nor
+=======
+   border-radius: 6px;
+>>>>>>> jos
     border: solid 1px #F5C9C9 ;
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
@@ -619,10 +658,14 @@ input[type="radio"] + label:before {
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1140px;
 =======
     width: 100%;
 >>>>>>> nor
+=======
+    width: 1140px;
+>>>>>>> jos
     height: 240px;
     margin-left: -1.5em; 
 }
@@ -631,112 +674,12 @@ input[type="radio"] + label:before {
 =======
 .box5{
     border-radius: 6px;
+    border: solid 1px #F5C9C9 ;
     margin-bottom: 0.80em;
     padding: 0.50em 0.50em;
-    width: 95%;
-    margin-left: 4em;
-  
-}
-
-.box6{
-    border-radius: 6px;
-    border: solid 1px #F5C9C9 ;
-    width: 97%;
-    height: 128px;
-    margin-bottom: 0em;
-    margin-top: 0.1em;
-    margin-left: 0.5em
-}
-
-.box7{ 
-    width: 27%;
-    height: 40px;
-    margin-left: 3em;
-}
-
-.box8{ 
-    width: 30.2%;
-    height: 40px;
-    margin-left: 3em;
-}
-
-.box9{ 
-    width: 23.8%;
-    height: 40px;
-    margin-left: 3em;
-}
-
-.box10{ 
-    width: 28.9%;
-    height: 40px;
-    margin-left: 3em;
-}
-
-.box11{ 
-    width: 33.1%;
-    height: 40px;
-    margin-left: 3em;
-}
-.box12{ 
-    width: 20.9%;
-    height: 40px;
-    margin-left: 3em;
-}
-.box13{ 
-    width: 31.3%;
-    height: 40px;
-    margin-left: 3em;
-}
-
-.box13{ 
-    width: 31.3%;
-    height: 40px;
-    margin-left: 3em;
-}
-.box14{ 
-    width: 34.8%;
-    height: 40px;
-    margin-left: 3em;
-}
-.box15{ 
-    width: 21.3%;
-    height: 40px;
-    margin-left: 2.2em;
-}
-.box16{ 
-    width: 30.8%;
-    height: 40px;
-    margin-left: 3em;
-}
-
-.box17{ 
-    width: 29.6%;
-    height: 40px;
-    margin-left: 6em;
-
-
-}
-
-.box18{ 
-    width: 28.9%;
-    height: 40px;
-    margin-left: 1em;
-
-}
-
-.box19{ 
-    width: 26.9%;
-    height: 40px;
-    margin-left: 2em;
-    margin-bottom: 1.8em;
-}
-
-.box20{ 
-    width: 96%;
-    height: 40px;
-    margin-left: 2em;
-    margin-top: 1em;
-    margin-bottom: 4em;
+    width: 1120px;
+    height: 340px;
+    margin-left: 4em; 
 }
 
 
@@ -807,9 +750,12 @@ input[type="radio"] + label:before {
     display: block;
     width: 62%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> nor
+=======
+>>>>>>> jos
     position: relative;
     bottom: 0.8em;
 }
@@ -821,20 +767,29 @@ input[type="radio"] + label:before {
 
 .image.fit1{
 <<<<<<< HEAD
+<<<<<<< HEAD
     display: block;
     width: 70%;
 
     position: relative;
 =======
     display: contents;
+=======
+    display: block;
+>>>>>>> jos
     width: 70%;
+
     position: relative;
+<<<<<<< HEAD
     margin-right:0em;
 >>>>>>> nor
+=======
+>>>>>>> jos
 }
 
 .image.fit1 img{
     display:block;
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 86%;
     height: 220px; 
@@ -844,6 +799,11 @@ input[type="radio"] + label:before {
     height: 298px; 
     margin-left: 0.5em;
 >>>>>>> nor
+=======
+    width: 86%;
+    height: 220px; 
+    margin-left: 5.8em;
+>>>>>>> jos
 
 }
 
@@ -863,10 +823,14 @@ ol li {
 ul {
     list-style: disc;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin: 0 0 2em 0;
 =======
     margin: 1em 0 0.2em 0;
 >>>>>>> nor
+=======
+    margin: 0 0 2em 0;
+>>>>>>> jos
     padding-left: 1em;
 }
 
@@ -915,6 +879,7 @@ ul.actions {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ul.actions li {
     display: inline-block;
     padding: 0 1em 0 0;
@@ -948,6 +913,11 @@ ul.actions2 li {
     display: inline-block;
     padding: 0 0em 0 0;
 >>>>>>> nor
+=======
+ul.actions li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+>>>>>>> jos
     vertical-align: middle;
 }
 
@@ -955,6 +925,7 @@ ul.actions li:last-child {
     padding-right: 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1 li:last-child {
@@ -967,10 +938,13 @@ ul.actions2 li:last-child {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.small li {
     padding: 0 0.5em 0 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.small li {
@@ -982,11 +956,14 @@ ul.actions2.small li {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.vertical li {
     display: block;
     padding: 1em 0 0 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.vertical li {
@@ -1000,10 +977,13 @@ ul.actions2.vertical li {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.vertical li:first-child {
     padding-top: 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.vertical li:first-child {
@@ -1015,10 +995,13 @@ ul.actions2.vertical li:first-child {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.vertical li > * {
     margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.vertical li > * {
@@ -1030,10 +1013,13 @@ ul.actions2.vertical li > * {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.vertical.small li {
     padding: 0.5em 0 0 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.vertical.small li {
@@ -1045,10 +1031,13 @@ ul.actions2.vertical.small li {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.vertical.small li:first-child {
     padding-top: 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.vertical.small li:first-child {
@@ -1060,6 +1049,8 @@ ul.actions2.vertical.small li:first-child {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.fit {
     display: table;
     margin-left: -1em;
@@ -1068,6 +1059,7 @@ ul.actions.fit {
     width: calc(100% + 1em);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.fit {
@@ -1088,11 +1080,14 @@ ul.actions2.fit {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.fit li {
     display: table-cell;
     padding: 0 0 0 1em;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.fit li {
@@ -1105,10 +1100,13 @@ ul.actions2.fit li {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.fit li > * {
     margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.fit li > * {
@@ -1120,11 +1118,14 @@ ul.actions2.fit li > * {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.fit.small {
     margin-left: -0.5em;
     width: calc(100% + 0.5em);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.fit.small {
@@ -1138,10 +1139,13 @@ ul.actions2.fit.small {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 ul.actions.fit.small li {
     padding: 0 0 0 0.5em;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ul.actions1.fit.small li {
@@ -1153,6 +1157,8 @@ ul.actions2.fit.small li {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 dl {
     margin: 0 0 2em 0;
 }
@@ -1361,6 +1367,7 @@ input[type="button"].special,
     background-color: #629DD1;
     color: #ffffff !important;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 10.5em;
     height: 2.5em;
     font-size: 0.5em;
@@ -1380,6 +1387,11 @@ input[type="button"].special,
     text-indent: 1em;
     font-size: 0.6em;
 >>>>>>> nor
+=======
+    width: 10.5em;
+    height: 2.5em;
+    font-size: 0.5em;
+>>>>>>> jos
 }
 
 
@@ -1424,8 +1436,11 @@ input[type="button"]:disabled,
 =======
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
+<<<<<<< HEAD
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 }
 
 .wrapper.style2 {
@@ -1459,11 +1474,14 @@ input[type="button"]:disabled,
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .wrapper.style3 {
     background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
 =======
 
 
+=======
+>>>>>>> jos
 .wrapper.style3 {
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
 >>>>>>> nor
@@ -1500,6 +1518,7 @@ input[type="button"]:disabled,
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .wrapper.style4 {
     background-image: url("/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
     color: #555f66;
@@ -1512,6 +1531,12 @@ input[type="button"]:disabled,
     color: #555f66;
     height: 42.7em;
 >>>>>>> nor
+=======
+.wrapper.style4 {
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/bg.jpg");
+    color: #555f66;
+    height: 43em;
+>>>>>>> jos
 }
 
 .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -1544,6 +1569,7 @@ input[type="button"]:disabled,
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .wrapper.style6 {
     background-attachment: fixed;
@@ -1566,6 +1592,8 @@ body.is-touch .wrapper.style6 {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 
 /* Header */
@@ -1656,10 +1684,14 @@ body.is-touch .wrapper.style6 {
     padding: 0 1em;
     position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
     top: -0.075em;
 =======
     top: -0.5em;
 >>>>>>> nor
+=======
+    top: -0.075em;
+>>>>>>> jos
     vertical-align: middle;
 }
 
@@ -1696,6 +1728,7 @@ body.is-touch .wrapper.style6 {
     position: relative;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #banner1{
     background-color: #666666;
@@ -1705,6 +1738,12 @@ body.is-touch .wrapper.style6 {
     background-color: #666666;
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/d3.jpg");
 >>>>>>> nor
+=======
+
+#banner1{
+    background-color: #666666;
+    background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/imgb1.png");
+>>>>>>> jos
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1712,6 +1751,7 @@ body.is-touch .wrapper.style6 {
     padding: 10em 0;
     text-align: center;
     position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
     height: 500px;
 }
@@ -1761,6 +1801,11 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+    height: 500px;
+}
+
+>>>>>>> jos
 #banner:before {
     content: '';
     position: absolute;
@@ -1770,6 +1815,7 @@ body.is-touch #banner2 {
     height: 100%;
     background: rgba(64, 72, 80, 0.25);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1:before {
@@ -1783,11 +1829,14 @@ body.is-touch #banner2 {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner .inner {
     position: relative;
     z-index: 1;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 .inner {
@@ -1797,10 +1846,13 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner .inner :last-child {
     margin-bottom: 0;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 .inner :last-child {
@@ -1808,11 +1860,14 @@ body.is-touch #banner2 {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 
 #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
     color: #FCACAC;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 h2, #banner1 h3, #banner1 h4, #banner1 h5, #banner1 h6 {
@@ -1820,11 +1875,14 @@ body.is-touch #banner2 {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner .button.alt {
     box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
     color: #ffffff !important;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 .button.alt {
@@ -1834,10 +1892,13 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner .button.alt:hover {
     background-color: rgba(144, 144, 144, 0.275);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 .button.alt:hover {
@@ -1846,10 +1907,13 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner .button.alt:active {
     background-color: rgba(144, 144, 144, 0.4);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 .button.alt:active {
@@ -1858,10 +1922,13 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner .button.alt.icon:before {
     color: #c1c1c1;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 .button.alt.icon:before {
@@ -1869,10 +1936,13 @@ body.is-touch #banner2 {
 }
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner .button {
     min-width: 12em;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 .button {
@@ -1881,6 +1951,8 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner h2 {
     font-size: 3.5em;
@@ -1888,6 +1960,7 @@ body.is-touch #banner2 {
     margin: 0 0 0.5em 0;
     padding: 0;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 h2 {
@@ -1899,11 +1972,14 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner p {
     font-size: 1.5em;
     margin-bottom: 2em;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 p {
@@ -1913,11 +1989,14 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 #banner p a {
     color: #ffffff;
     text-decoration: none;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #banner1 p a {
@@ -1930,6 +2009,8 @@ body.is-touch #banner2 {
 
 
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 /* Footer */
 
@@ -1972,9 +2053,15 @@ body.is-touch #banner2 {
 #footer .icons a {
     color: #FCACAC;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 
 =======
 }
 >>>>>>> nor
+=======
+}
+
+
+>>>>>>> jos

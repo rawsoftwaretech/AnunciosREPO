@@ -4,28 +4,28 @@
         <div class="inner">
 
             <header class="major2 narrow">
-                <h2><?= Html::link('index/inicio', 'SEXYANUNCIOS.COM') ?></h2>
-                <p>La mejor web de anuncios eróticos</p>
+                <h2>sexyanuncios</h2>
+                <p>La mejor web de anuncios eróticos <a href="http://SexiAnuncios.com"></a></p>
                 
             </header>
 
-            <?= Form::open() ?>
+            <?= Form::open('', 'POST') ?>
             <div class="container 75%">
                 <div class="row uniform 50%">
 
                     <div class="6u 6u(xsmall)">
                             <!-- <input name="email" placeholder="Email" type="email" /> -->
-                        <?= Form::email('usuarios.email', 'placeholder="Email"') ?>
+                        <?= Form::email('usuario.email', 'placeholder="Email"') ?>
                     </div>
 
                     <div class="6u 6u(xsmall)">
                             <!-- <input name="email" placeholder="Email" type="email" /> -->
-                        <?= Form::pass('usuarios.password', 'placeholder="Contraseña"') ?>
+                        <?= Form::pass('usuario.password', 'placeholder="Contraseña"') ?>
                     </div>
 
                 </div>
             </div>
-            <ul class="actions1">
+            <ul class="actions">
                 <li>
                         <!-- <input type="submit" class="special" value="Submit" /> -->
                     <?= Form::submit('Iniciar Sesión', 'class="button special"') ?>

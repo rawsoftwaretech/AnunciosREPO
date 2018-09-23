@@ -14,6 +14,7 @@ class IndexController extends AppController {
        
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
     public function inicio(){
@@ -21,5 +22,7 @@ class IndexController extends AppController {
         
     }
 >>>>>>> nor
+=======
+>>>>>>> jos
 
 }
