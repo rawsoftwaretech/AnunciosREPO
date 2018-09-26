@@ -1373,7 +1373,7 @@ input[type="button"]:disabled,
 .wrapper.style6 {
     background-attachment: fixed;
     background-image: url("/AnunciosREPO/proyecto-master/default/public/img/sexianunciosimg/d1.jpg");
-    background-position: center center,bottom;
+    background-position: center  bottom;
     background-size: cover;
     height: 30em;
 }
@@ -1529,7 +1529,7 @@ body.is-touch .wrapper.style6 {
     background-size: cover;
     line-height: 1.75;
     text-align: center;
-    height: 40em;
+    height: 39em;
 }
 
 #banner2 :last-child {
