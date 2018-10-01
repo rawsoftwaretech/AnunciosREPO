@@ -1,9 +1,10 @@
 <body id="top">
-
+  <?php View::partial('partialssexianuncios/headerdos') ?>
     <section id="four" class="wrapper style3 special">
         <div class="inner">
             <header class="major narrow">
                 <h2><?= Html::link('index/inicio', 'SEXXYANUNCIOS.COM') ?></h2>
+                <p>La mejor web de anuncios eróticos</p>
                      <h2 class="h2m">Anuncio</h2>
             </header>
 
@@ -105,14 +106,22 @@
                             <!-- <input name="name" placeholder="Name" type="text" /> -->
                         <?= Form::text('usuario.name', 'placeholder="Horario disponible"') ?>
                     </div>
+                    
+                    <div class="6u 12u (xsmall)">
+                            <!-- <input name="name" placeholder="Name" type="text" /> -->
+                        <?= Form::text('usuario.email', 'placeholder="Email"') ?>
+                    </div>
+                    
+                    <div class="6u 12u (xsmall)">
+                            <!-- <input name="name" placeholder="Name" type="text" /> -->
+                        <?= Form::text('usuario.repemail', 'placeholder="Repetir Email"') ?>
+                    </div>
 
 
                     <div class="6u 12u (xsmall)">   
                        <!-- <input name="soy" placeholder="Soy" type="text" />-->
                         <?= Form::text('usuario.moviluno', 'placeholder="Movil Uno" ') ?>
                     </div>
-
-
 
 
                     <div class="6u 12 (xsmall)u">   
