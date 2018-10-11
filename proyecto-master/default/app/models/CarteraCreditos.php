@@ -9,15 +9,19 @@
 /**
  * Description of CarteraCreditos
  *
- * @author Usuario
+ * @author Jose
  */
-class CarteraCreditos  extends ActiveRecord {
-    
-        public function getAll(){
-		$creditos; //query
-                return $this;
-	
-                
+class CarteraCreditos extends ActiveRecord {
+    //Consume un crédito
+    public function consumirUno(){
+        $this->disponible -= 1; //PENDIENTE de verificar
+        $this->consumido += 1; //PENDIENTE de verificar        
+        
+        if($this->update()){
+            return "Consumido correctamente";
+        }else{
+            return "No se ha podido consumir";
         }
+    }
 	
 }

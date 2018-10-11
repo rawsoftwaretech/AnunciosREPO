@@ -7,9 +7,9 @@
  */
 
 /**
- * Description of Cuenta
+ * Description of Cuentas
  *
- * @author Usuario
+ * @author Jose
  */
 class Cuentas extends ActiveRecord {
     

@@ -13,11 +13,11 @@
  */
 class DatCredito extends ActiveRecord {
     
-        public function getAll(){
-		$creditos; //query
-                return $this;
-	
-                
+        public function registroDatos($datos){
+            if ($this->create($datos)){
+                return "Creado correctamente";
+            }else{
+                return "No se ha podido crear";
+            }
         }
-	
 }
