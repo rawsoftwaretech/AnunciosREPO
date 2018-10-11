@@ -7,9 +7,9 @@
  */
 
 /**
- * Description of Usuario
+ * Description of Usuarios
  *
- * @author Usuario
+ * @author Usuarios
  */
 class Usuarios extends ActiveRecord {
     
