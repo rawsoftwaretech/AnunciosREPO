@@ -1,5 +1,7 @@
 <?php
 
+// Load::model('usuarios');
+
 /**
  * Controller por defecto si no se usa el routes
  *
@@ -11,7 +13,18 @@ class IndexController extends AppController {
     }
 
     public function index() {
-       
+       $this->usuarios = (new Usuarios)->getUsuarios();
+    }
+    
+    public function cambiarDatoUsuario($id) {
+        View::select(NULL);
+        // $id = $this->parameters[0];
+        $actualizado = (new Usuarios)->alterarUsuario($id);
+        if ($actualizado) {
+            Flash::valid('GUAYYYY');
+        } else {
+            Flash::error('La Cagamos compare');
+        }
     }
 
 }

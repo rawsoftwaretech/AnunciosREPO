@@ -12,7 +12,7 @@
  * @author Usuarios
  */
 class Usuarios extends ActiveRecord {
-    
+   /* 
     public function registrar(){
         if(true){//Comprobacion de validez de los valores del registro
             if(create()){
@@ -37,6 +37,17 @@ class Usuarios extends ActiveRecord {
         }else{
             return "No existe este usuario"; //Se lanzara una vista con este mensaje
         }
+    }
+    */
+    
+    public function getUsuarios() {
+        return $this->find();
+    }
+    
+    public function alterarUsuario($id) {
+        $usuario = $this->find("conditions: id=0");
+        $usuario[0]->nombre = 'Ramon';
+        return $usuario[0]->update();
     }
 
 }

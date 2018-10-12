@@ -2,8 +2,15 @@
     <div class="inner">
         <h2>SexyAnuncios</h2>
         <p>La mejor web de anuncios eróticos <a href="http://SexiAnuncios.com"></a></p>
+        <!--
+        Asi se usa el Helper linkAction (crea un link) para 
+        pasarle parametros (usuarios[0]->id) al metodo del controlador 
+        indicado (cambiarDatoUsuario) como terminacion de la url,
+        teniendo que el texto a mostrar de dicho link es "Cambio"
+        -->
+        <?= Html::linkAction('cambiarDatoUsuario/' . $usuarios[0]->id, 'Cambio', '') ?>
         <ul class="actions">
-
+            
         </ul>
     </div>
 </section>

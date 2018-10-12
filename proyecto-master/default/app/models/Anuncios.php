@@ -22,23 +22,16 @@ class Anuncios extends ActiveRecord {
             }
         }
         
-        public function actualizarRenove(){
-            $usuario = Usuarios::find($this->usuarios_id);//MAL, NO ES UN METODO ESTATICO
-            $carteraCreditos = CarteraCreditos::find($usuario->carteraCredios_id); //MAL, NO ES UN METODO ESTATICO
-            //$album = Album->find(12); ESTO ES UN EJEMPLO DE KUMBIAPHP QUE USANDO AQUI ME PETA :D
-            
-            if ($carteraCreditos->disponible > 0){
-                $this->ultimoPosicionamiento = time();
-
-                if ($this->update()){
-                    $carteraCreditos::consumirUno();
-                    
-                    return "Reposicionado correctamente";
-                }else{
-                    return "No se ha podido reposicionar";
-                }
-            }else{
-                return "No tienes creditos disponibles";
+        public function actualizarRenove($idAnuncio) {
+            $anuncio = (new Anuncios)->find($idAnuncio);
+            $anuncio->ultimoPosicionamiento = time();
+            $anuncio->begin();
+            if ($anuncio->update()) {
+                $anuncio->commit();
+                return true;
+            } else {
+                $anuncio->rollback();
+                return false;
             }
         }
 	
