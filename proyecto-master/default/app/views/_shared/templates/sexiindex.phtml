@@ -13,24 +13,28 @@
         <?= Tag::js('skel.min') ?>
         <?= Tag::js('skel-layers.min') ?>
         <?= Tag::js('init') ?>
-
-
-
+        
+        <!-- GirlCarousel Plugin -->
+        <?= Tag::js('AS-2315104') ?>
+        <?= Tag::js('jquery.class') ?>
+        <?= Tag::js('js.cookie') ?>
+        <?= Tag::js('jquery.json') ?>
+        <?= Tag::js('jquery.Wishlist') ?>
+        <?= Tag::js('jquery.GirlCarousel') ?>
 
         <noscript> 
         <?= Tag::css('sexianuncioscss/skel') ?>
         <?= Tag::css('sexianuncioscss/style') ?>
         <?= Tag::css('sexianuncioscss/style-xlarge') ?>
         <?= Tag::css('sexianuncioscss/style-medium') ?>
-        <?= Tag::css('sexianuncioscss/font-awesome.min', 'type="text/css"') ?>
-        <?= Tag::css('sexianuncioscss/fontawesome.min', 'type="text/css"') ?>
+        <?php echo Tag::css('sexianuncioscss/font-awesome.min', 'type="text/css"'); ?>
+        <?php // Tag::css('sexianuncioscss/fontawesome.min', 'type="text/css"') ?>
         <?= Html::includeCss() ?> 
         </noscript>
 
 
 
     </head>
-
     <body id="top"> 
         <!-- Header -->
         <?php View::partial('partialssexianuncios/header') ?>
@@ -39,9 +43,8 @@
         <?php View::content() ?>
 
         <!-- Footer -->
-        <?php View::partial('partialssexianuncios/footer') ?>    
-    </body>
-
-    
+        <?php View::partial('partialssexianuncios/footer') ?>
+        
+    </body>    
 </html>
 
